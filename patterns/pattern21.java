@@ -7,7 +7,7 @@ public class pattern21 {
         Scanner sc =new Scanner(System.in);
         int n = sc.nextInt();
         int nst = 1;
-        int nsp = n;//n-1 is also acceted
+        int nsp = n-1;//n is also aplicable
         int val = 1;
         int row = 1;
         
