@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class pattern21 {
+public class pattern24 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         int n = sc.nextInt();
@@ -12,6 +12,8 @@ public class pattern21 {
         int row = 1;
         
         while(row <= n){
+            //for value
+            val = row;
             //space
             for(int csp =1 ; csp <=nsp ; csp++){
                 System.out.print(" ");

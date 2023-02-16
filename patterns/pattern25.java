@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class pattern21 {
+public class pattern25 {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
         int n = sc.nextInt();
@@ -14,11 +14,12 @@ public class pattern21 {
         while(row <= n){
             //space
             for(int csp =1 ; csp <=nsp ; csp++){
-                System.out.print(" ");
+                System.out.print("\t");
             }
             // stars
             for(int cst =1 ; cst <=nst ; cst++){
-                System.out.print(val);
+                System.out.print(val + "\t");
+                val++;//for val inc 
             }
             System.out.println();
             nsp=nsp-1;
