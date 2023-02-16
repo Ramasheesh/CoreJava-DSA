@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public interface pattern1 {
+public interface pattern01 {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
